@@ -44,13 +44,13 @@ public:
 
 I am a gameplay-focused Unreal Engine developer passionate about building immersive and responsive gameplay systems using **C++** and **Blueprints**.
 
-My development focus includes:
+### Development Focus
 - ⚔️ Combat Systems
 - 🎯 FPS Mechanics
 - 🧠 Enemy AI
 - 👑 Boss Fight Design
 - 🏗 Gameplay Architecture
-- 🎮 Game Feel & Polish
+- 🎮 Gameplay Feel & Polish
 
 ---
 
@@ -63,10 +63,13 @@ My development focus includes:
 | Unreal Engine 5 | Gameplay Systems & Prototyping |
 | C++ | Gameplay Programming |
 | Blueprints | Gameplay Logic & Systems |
-
+| Visual Studio | Unreal Development Workflow |
+| Git & GitHub | Version Control |
 
 </div>
+
 ---
+
 # 🚀 Featured Projects
 
 ## ⚔️ Modular Combat System
@@ -98,7 +101,7 @@ A first-person gameplay prototype focused on responsiveness and gameplay feel.
 
 ## 👑 Boss Fight Prototype
 
-A cinematic-style boss combat prototype inspired by modern action games.
+A cinematic-style combat prototype inspired by modern action games.
 
 ### Highlights
 - Multi-phase Boss Logic
@@ -130,9 +133,9 @@ Architecture Design   ██████░░░░░░░░░   60%
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=mbasitabbasi6-cloud&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mbasitabbasi6-cloud&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" />
 
 </div>
 
@@ -164,7 +167,7 @@ Architecture Design   ██████░░░░░░░░░   60%
 - Improve advanced Unreal Engine C++ knowledge
 - Create scalable gameplay architecture
 - Develop production-quality gameplay prototypes
-- Continue learning modern gameplay programming techniques
+- Continue improving gameplay programming skills
 
 ---
 
