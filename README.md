@@ -133,12 +133,17 @@ Architecture Design   ██████░░░░░░░░░   60%
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=mbasitabbasi6-cloud&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=mbasitabbasi6-cloud&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mbasitabbasi6-cloud&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mbasitabbasi6-cloud&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
 
+<div align="center">
+
+<img width="70%" src="https://streak-stats.demolab.com?user=mbasitabbasi6-cloud&theme=tokyonight&hide_border=true" />
+
+</div>
 ---
 
 # 🌐 Professional Links
