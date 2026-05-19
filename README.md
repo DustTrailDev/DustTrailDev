@@ -1,184 +1,160 @@
 <div align="center">
 
-# ⚔️ Abdul Basit
-
-### Unreal Engine Developer • Gameplay Programmer
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=180&section=header&text=Abdul%20Basit&fontSize=55&fontColor=58A6FF&fontAlignY=36&desc=Unreal%20Engine%20Developer%20%E2%80%A2%20Gameplay%20Programmer&descColor=8b949e&descAlignY=55&descSize=16"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Unreal+Engine+5+Developer;Gameplay+Programmer;C%2B%2B+%26+Blueprints;Combat+Systems+%26+Enemy+AI;Building+Immersive+Gameplay+Experiences" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Unreal+Engine+5+%7C+C%2B%2B+%7C+Blueprints;Combat+Systems+%26+Enemy+AI;Boss+Fight+Design+%26+FPS+Mechanics;Building+Immersive+Gameplay+Experiences" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Engine-Unreal%20Engine%205-black?style=for-the-badge&logo=unrealengine"/>
-  <img src="https://img.shields.io/badge/Code-C%2B%2B-blue?style=for-the-badge&logo=cplusplus"/>
-  <img src="https://img.shields.io/badge/Scripting-Blueprints-137CBD?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Unreal%20Engine%205-0d1117?style=for-the-badge&logo=unrealengine&logoColor=white&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Blueprints-137CBD?style=for-the-badge&logo=unrealengine&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white"/>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/muhammad-abdulbasit-966b3a385">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="mailto:mbasitabbasi6@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://www.instagram.com/dusttraildev/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/>
+  </a>
 </p>
 
 </div>
 
 ---
 
-# 💻 About Me
+## 👾 About Me
 
 ```cpp
 class AbdulBasit : public UnrealEngineDeveloper
 {
 public:
-
-    void Focus()
-    {
-        GameplayProgramming();
-        CombatSystems();
-        EnemyAI();
-        BossFightDesign();
-    }
+    const FString Focus      = TEXT("Gameplay Systems • Combat • Enemy AI • Boss Fights");
+    const FString Engine     = TEXT("Unreal Engine 5");
+    const FString Languages  = TEXT("C++ • Blueprints");
 
     void CurrentGoals()
     {
-        ImproveCPP();
-        BuildScalableSystems();
-        CreatePolishedGameplay();
+        MasterAdvancedCPP();
+        BuildScalableGameplaySystems();
+        ShipPolishedPrototypes();
+        RefineGameplayFeel();
     }
 };
 ```
 
-I am a gameplay-focused Unreal Engine developer passionate about building immersive and responsive gameplay systems using **C++** and **Blueprints**.
-
-### Development Focus
-- ⚔️ Combat Systems
-- 🎯 FPS Mechanics
-- 🧠 Enemy AI
-- 👑 Boss Fight Design
-- 🏗 Gameplay Architecture
-- 🎮 Gameplay Feel & Polish
+I'm a gameplay-focused Unreal Engine developer passionate about building **responsive, immersive systems** that feel great to play. My work centers on combat architecture, enemy behavior, and gameplay feel — from the first punch to the final boss.
 
 ---
 
-# ⚙️ Tech Stack
+## ⚙️ Tech Stack
 
 <div align="center">
 
-| Technology | Experience |
+| Technology | Role |
 |:--|:--|
-| Unreal Engine 5 | Gameplay Systems & Prototyping |
-| C++ | Gameplay Programming |
-| Blueprints | Gameplay Logic & Systems |
-| Visual Studio | Unreal Development Workflow |
-| Git & GitHub | Version Control |
+| **Unreal Engine 5** | Core development environment — gameplay systems, prototyping, level flow |
+| **C++** | Gameplay programming — components, actors, game modes, ability systems |
+| **Blueprints** | Rapid iteration — gameplay logic, visual scripting, event-driven systems |
+| **Visual Studio** | IDE for Unreal C++ development and debugging |
 
 </div>
 
 ---
 
-# 🚀 Featured Projects
-
-## ⚔️ Modular Combat System
-
-A scalable combat framework designed with reusable gameplay architecture.
-
-### Features
-- Parry & Blocking Mechanics
-- Enemy Combat AI
-- Projectile Systems
-- Teleportation Abilities
-- Component-Based Architecture
-- Responsive Combat Logic
-
----
-
-## 🔫 FPS Gameplay Prototype
-
-A first-person gameplay prototype focused on responsiveness and gameplay feel.
-
-### Systems Included
-- Shooting Mechanics
-- Hit Detection
-- Inventory Features
-- Interaction Systems
-- Enemy AI Behaviors
-
----
-
-## 👑 Boss Fight Prototype
-
-A cinematic-style combat prototype inspired by modern action games.
-
-### Highlights
-- Multi-phase Boss Logic
-- Combo Attack Systems
-- Dynamic Enemy Behaviors
-- Reactive Gameplay Flow
-- Combat State Management
-
----
-
-# 📊 Developer Overview
+## 🚀 Project Showcase
 
 <div align="center">
 
-```txt
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+
+<img src="https://i.postimg.cc/pVfC2jVN/Whats-App-Image-2026-05-19-at-8-16-35-AM.jpg" width="100%" alt="Boss Fight Prototype"/>
+
+**👑 Boss Fight Prototype**
+
+*Cinematic multi-phase encounter*
+
+![UE5](https://img.shields.io/badge/UE5-0d1117?style=flat-square&logo=unrealengine&logoColor=white)
+![Blueprint](https://img.shields.io/badge/Blueprint-137CBD?style=flat-square)
+
+</td>
+<td width="50%" align="center" valign="top">
+
+<img src="https://i.postimg.cc/3xqLVH1v/Moneky-king.png" width="100%" alt="FPS Prototype"/>
+
+**🔫 Boss Fight(Involving parry and block)**
+
+*Responsive first-person systems*
+
+![UE5](https://img.shields.io/badge/UE5-0d1117?style=flat-square&logo=unrealengine&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 📊 Skill Overview
+
+<div align="center">
+
+```
 Gameplay Systems      ███████░░░░░░░░   70%
 Blueprints            ███████░░░░░░░░   70%
 C++                   ██████░░░░░░░░░   60%
 Enemy AI              ██████░░░░░░░░░   60%
-Optimization          █████░░░░░░░░░░   55%
 Architecture Design   ██████░░░░░░░░░   60%
+Optimization          █████░░░░░░░░░░   55%
 ```
 
 </div>
 
 ---
 
-# 📈 GitHub Stats
-
-<# 📈 GitHub Stats
+## 📈 GitHub Stats
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=mbasitabbasi6-cloud&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mbasitabbasi6-cloud&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=mbasitabbasi6-cloud&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF"/>
+<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mbasitabbasi6-cloud&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF"/>
 
 </div>
 
 <div align="center">
 
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=mbasitabbasi6-cloud&theme=tokyonight&hide_border=true&background=0d1117"/>
-
-</div>
-
-# 🌐 Professional Links
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/muhammad-abdulbasit-966b3a385" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:mbasitabbasi6@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://www.instagram.com/dusttraildev/" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
+<img width="65%" src="https://github-readme-streak-stats.herokuapp.com/?user=mbasitabbasi6-cloud&theme=tokyonight&hide_border=true&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
 
 </div>
 
 ---
 
-# 🎯 Current Goals
+## 🎯 Current Goals
 
-- Build polished Unreal Engine gameplay systems
-- Improve advanced Unreal Engine C++ knowledge
-- Create scalable gameplay architecture
-- Develop production-quality gameplay prototypes
-- Continue improving gameplay programming skills
+- [ ] Ship a fully polished gameplay prototype built entirely in C++
+- [ ] Master advanced Unreal Engine systems: GAS, AI Perception, Enhanced Input
+- [ ] Design scalable, production-ready gameplay architecture
+- [ ] Deepen understanding of Unreal's rendering and optimization pipeline
+- [ ] Build a strong public portfolio of gameplay demos
 
 ---
 
 <div align="center">
 
-### 🎮 “Great gameplay is built through responsiveness, clarity, and feel.”
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=110&section=footer"/>
+
+### *"Great gameplay is built through responsiveness, clarity, and feel."*
 
 </div>
