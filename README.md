@@ -131,7 +131,7 @@ Architecture Design   ██████░░░░░░░░░   60%
 
 # 📈 GitHub Stats
 
-<d# 📈 GitHub Stats
+<# 📈 GitHub Stats
 
 <div align="center">
 
