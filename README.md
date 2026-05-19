@@ -5,7 +5,7 @@
 ### Unreal Engine Developer • Gameplay Programmer
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Unreal+Engine+5+Developer;Gameplay+Programmer;C%2B%2B+%26+Blueprints;Building+Scalable+Gameplay+Systems" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Unreal+Engine+5+Developer;Gameplay+Programmer;C%2B%2B+%26+Blueprints;Building+Gameplay+Systems" />
 </p>
 
 </div>
@@ -14,9 +14,9 @@
 
 ## About Me
 
-I am a gameplay-focused Unreal Engine developer specializing in building scalable and immersive gameplay systems using **C++** and **Blueprints**.
+I am an Unreal Engine developer focused on creating immersive gameplay systems using **C++** and **Blueprints**.
 
-My work primarily revolves around:
+My interests include:
 - Gameplay Programming
 - Combat Systems
 - Enemy AI
@@ -24,11 +24,11 @@ My work primarily revolves around:
 - Boss Fight Design
 - Gameplay Architecture
 
-I am currently focused on improving:
-- Advanced Unreal Engine C++
-- System Design & Optimization
-- Scalable Gameplay Frameworks
-- Production-quality Gameplay Polish
+Currently improving:
+- Unreal Engine C++
+- Gameplay System Design
+- Optimization
+- Scalable Architecture
 
 ---
 
@@ -38,9 +38,9 @@ I am currently focused on improving:
 
 | Engine | Programming | Systems |
 |:--:|:--:|:--:|
-| Unreal Engine 5 | C++ | Gameplay Architecture |
-| Blueprints | Object-Oriented Programming | Combat Systems |
-| Visual Studio | AI Behaviors | FPS Mechanics |
+| Unreal Engine 5 | C++ | Gameplay Systems |
+| Blueprints | OOP Concepts | Combat Mechanics |
+| Visual Studio | AI Behaviors | FPS Systems |
 
 </div>
 
@@ -50,23 +50,18 @@ I am currently focused on improving:
 
 ### ⚔️ Modular Combat System
 
-A flexible combat framework designed with scalability and responsiveness in mind.
-
-#### Features
+Designed a flexible gameplay combat framework featuring:
 - Parry & Blocking Mechanics
 - Enemy Combat AI
 - Projectile Systems
 - Teleportation Abilities
 - Component-Based Architecture
-- Reusable Gameplay Logic
 
 ---
 
 ### 🔫 FPS Gameplay Prototype
 
-A gameplay prototype focused on responsive shooting systems and player feedback.
-
-#### Systems Included
+Built responsive FPS gameplay systems including:
 - Shooting Mechanics
 - Hit Detection
 - Inventory Features
@@ -77,14 +72,11 @@ A gameplay prototype focused on responsive shooting systems and player feedback.
 
 ### 👑 Boss Fight Prototype
 
-A cinematic combat prototype inspired by modern action games.
-
-#### Highlights
+Created cinematic combat encounters with:
 - Multi-phase Boss Logic
 - Combo Attack Systems
-- Reactive Combat Design
-- Advanced Enemy Behaviors
-- Dynamic Gameplay Flow
+- Reactive Gameplay Design
+- Dynamic Enemy Behaviors
 
 ---
 
@@ -93,12 +85,12 @@ A cinematic combat prototype inspired by modern action games.
 <div align="center">
 
 ```txt
-Gameplay Systems      ████████████████
-Blueprints            ████████████████
-C++                   █████████████░░░
-Enemy AI              █████████████░░░
-Optimization          ██████████░░░░░░
-Architecture Design   ████████████░░░░
+Gameplay Systems      ███████░░░░░░░░   70%
+Blueprints            ███████░░░░░░░░   70%
+C++                   ██████░░░░░░░░░   60%
+Enemy AI              ██████░░░░░░░░░   60%
+Optimization          █████░░░░░░░░░░   55%
+Architecture Design   ██████░░░░░░░░░   60%
 ```
 
 </div>
@@ -121,11 +113,10 @@ mbasitabbasi6@gmail.com
 
 ## Current Goals
 
-- Build production-quality gameplay systems
-- Deepen expertise in Unreal Engine C++
+- Build polished gameplay systems in Unreal Engine 5
+- Improve Unreal Engine C++ expertise
 - Create scalable gameplay architecture
-- Develop polished gameplay prototypes
-- Continue improving technical game development skills
+- Develop production-quality gameplay prototypes
 
 ---
 
