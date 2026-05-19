@@ -63,13 +63,10 @@ My development focus includes:
 | Unreal Engine 5 | Gameplay Systems & Prototyping |
 | C++ | Gameplay Programming |
 | Blueprints | Gameplay Logic & Systems |
-| Visual Studio | Unreal Development Workflow |
-| Git & GitHub | Version Control |
+
 
 </div>
-
 ---
-
 # 🚀 Featured Projects
 
 ## ⚔️ Modular Combat System
