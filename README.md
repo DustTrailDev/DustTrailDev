@@ -85,7 +85,6 @@ I'm a gameplay-focused Unreal Engine developer passionate about building **respo
 *Cinematic multi-phase encounter*
 
 ![UE5](https://img.shields.io/badge/UE5-0d1117?style=flat-square&logo=unrealengine&logoColor=white)
-![Blueprint](https://img.shields.io/badge/Blueprint-137CBD?style=flat-square)
 
 </td>
 <td width="50%" align="center" valign="top">
@@ -97,7 +96,6 @@ I'm a gameplay-focused Unreal Engine developer passionate about building **respo
 *Responsive first-person systems*
 
 ![UE5](https://img.shields.io/badge/UE5-0d1117?style=flat-square&logo=unrealengine&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
 </td>
 </tr>
@@ -123,22 +121,6 @@ Optimization          █████░░░░░░░░░░   55%
 </div>
 
 ---
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=mbasitabbasi6-cloud&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF"/>
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mbasitabbasi6-cloud&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF"/>
-
-</div>
-
-<div align="center">
-
-<img width="65%" src="https://github-readme-streak-stats.herokuapp.com/?user=mbasitabbasi6-cloud&theme=tokyonight&hide_border=true&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
-
-</div>
-
 ---
 
 ## 🎯 Current Goals
