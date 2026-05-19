@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Abdul Basit — Unreal Engine Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --accent: #58A6FF;
+    --accent2: #00FFD1;
+    --dark: #0a0c14;
+    --panel: rgba(10,14,28,0.82);
+    --panel2: rgba(20,28,50,0.75);
+    --border: rgba(88,166,255,0.18);
+    --border2: rgba(0,255,209,0.2);
+    --text: #e2e8f0;
+    --muted: #8b949e;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Exo 2', sans-serif;
+    color: var(--text);
+    min-height: 100vh;
+    background: var(--dark);
+    overflow-x: hidden;
+  }
+
+  /* BACKGROUND */
+  .bg {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    background-image: url('https://i.postimg.cc/kX3wxc4c/wp7664521-game-development-wallpapers.png');
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+  }
+  .bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(8,10,20,0.55) 0%,
+      rgba(8,10,20,0.45) 30%,
+      rgba(8,10,20,0.7) 70%,
+      rgba(8,10,20,0.92) 100%
+    );
+  }
+
+  /* SCANLINES OVERLAY */
+  .scanlines {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.03) 2px,
+      rgba(0,0,0,0.03) 4px
+    );
+  }
+
+  .wrapper {
+    position: relative;
+    z-index: 2;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* ---- HEADER ---- */
+  header {
+    padding: 60px 0 40px;
+    text-align: center;
+  }
+
+  .avatar-ring {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 24px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .avatar-ring::before {
+    content: '';
+    position: absolute;
+    inset: -6px;
+    border-radius: 50%;
+    border: 1px solid rgba(88,166,255,0.3);
+    animation: pulse-ring 2.5s ease-out infinite;
+  }
+  @keyframes pulse-ring {
+    0% { transform: scale(1); opacity: 0.5; }
+    100% { transform: scale(1.25); opacity: 0; }
+  }
+  .avatar-inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--accent);
+    letter-spacing: 2px;
+  }
+
+  h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(28px, 5vw, 48px);
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0 0 40px rgba(88,166,255,0.4);
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    color: var(--accent2);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  .badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+
+  .badge {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 5px 14px;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    background: rgba(88,166,255,0.07);
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+
+  .social-row {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .social-row a {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+    text-decoration: none;
+    border: 1px solid rgba(139,148,158,0.25);
+    padding: 6px 16px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+  }
+  .social-row a:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: rgba(88,166,255,0.08);
+  }
+
+  /* ---- DIVIDER ---- */
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border2), var(--border), transparent);
+    margin: 40px 0;
+  }
+
+  /* ---- SECTIONS ---- */
+  .section-label {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--accent2);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, var(--border2), transparent);
+  }
+
+  /* ---- ABOUT / CODE BLOCK ---- */
+  .code-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 4px;
+    padding: 28px 32px;
+    backdrop-filter: blur(12px);
+  }
+
+  .code-card pre {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    line-height: 1.9;
+    color: var(--text);
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  .kw { color: #ff7b93; }
+  .cls { color: #ffd900; }
+  .str { color: var(--accent2); }
+  .fn { color: var(--accent); }
+  .cm { color: #555e6e; font-style: italic; }
+
+  /* ---- TECH STACK ---- */
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 12px;
+  }
+
+  .tech-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 18px 20px;
+    backdrop-filter: blur(12px);
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .tech-card:hover {
+    border-color: var(--accent);
+    background: rgba(88,166,255,0.07);
+  }
+
+  .tech-name {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .tech-role {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  /* ---- PROJECTS ---- */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+
+  .proj-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    backdrop-filter: blur(12px);
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  .proj-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent2);
+  }
+
+  .proj-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.9) saturate(1.1);
+  }
+
+  .proj-body {
+    padding: 18px 20px;
+  }
+
+  .proj-tag {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent2);
+    margin-bottom: 8px;
+  }
+
+  .proj-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+  }
+
+  .proj-desc {
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  /* ---- SKILLS BARS ---- */
+  .skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .skill-row {
+    display: grid;
+    grid-template-columns: 160px 1fr 36px;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .skill-name {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--text);
+    text-transform: uppercase;
+  }
+
+  .skill-track {
+    height: 4px;
+    background: rgba(88,166,255,0.1);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .skill-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    border-radius: 2px;
+    transform-origin: left;
+    animation: fill-bar 1.2s cubic-bezier(0.22,1,0.36,1) forwards;
+    transform: scaleX(0);
+  }
+
+  @keyframes fill-bar {
+    to { transform: scaleX(1); }
+  }
+
+  .skill-pct {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    text-align: right;
+  }
+
+  /* ---- GOALS ---- */
+  .goals-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .goal-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 18px;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    backdrop-filter: blur(8px);
+    font-size: 13px;
+    color: var(--text);
+    transition: border-color 0.2s;
+  }
+  .goal-item:hover { border-color: rgba(0,255,209,0.3); }
+
+  .goal-box {
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--accent2);
+    border-radius: 2px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* ---- FOOTER ---- */
+  footer {
+    margin-top: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .footer-quote {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: rgba(88,166,255,0.5);
+    font-weight: 400;
+  }
+
+  /* ---- GITHUB-STYLE RECENT WORKS ---- */
+  .works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 12px;
+  }
+
+  .work-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 16px 18px;
+    backdrop-filter: blur(12px);
+    transition: border-color 0.2s;
+    cursor: default;
+  }
+  .work-card:hover { border-color: var(--accent); }
+
+  .work-card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+
+  .work-icon {
+    font-size: 16px;
+    color: var(--muted);
+  }
+
+  .work-name {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    color: var(--accent);
+    letter-spacing: 0.5px;
+  }
+
+  .work-desc {
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 12px;
+    line-height: 1.5;
+  }
+
+  .work-lang {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--muted);
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  .lang-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="bg"></div>
+<div class="scanlines"></div>
+
+<div class="wrapper">
+
+  <!-- HEADER -->
+  <header>
+    <div class="avatar-ring">
+      <div class="avatar-inner">AB</div>
+    </div>
+    <h1>Abdul Basit</h1>
+    <p class="subtitle">Unreal Engine Developer &nbsp;·&nbsp; Gameplay Programmer</p>
+
+    <div class="badge-row">
+      <span class="badge">UE5</span>
+      <span class="badge">C++</span>
+      <span class="badge">Blueprints</span>
+      <span class="badge">Combat Systems</span>
+      <span class="badge">Enemy AI</span>
+      <span class="badge">Boss Fights</span>
+    </div>
+
+    <div class="social-row">
+      <a href="https://www.linkedin.com/in/muhammad-abdulbasit-966b3a385" target="_blank">LinkedIn</a>
+      <a href="mailto:mbasitabbasi6@gmail.com">Email</a>
+      <a href="https://www.instagram.com/dusttraildev/" target="_blank">Instagram</a>
+    </div>
+  </header>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <div class="section-label">About Me</div>
+  <div class="code-card">
+    <pre><span class="kw">class</span> <span class="cls">AbdulBasit</span> : <span class="kw">public</span> <span class="cls">UnrealEngineDeveloper</span>
+{
+<span class="kw">public</span>:
+    <span class="kw">const</span> FString Focus     = TEXT(<span class="str">"Gameplay Systems • Combat • Enemy AI • Boss Fights"</span>);
+    <span class="kw">const</span> FString Engine    = TEXT(<span class="str">"Unreal Engine 5"</span>);
+    <span class="kw">const</span> FString Languages = TEXT(<span class="str">"C++ • Blueprints"</span>);
+
+    <span class="kw">void</span> <span class="fn">CurrentGoals</span>()
+    {
+        <span class="fn">MasterAdvancedCPP</span>();
+        <span class="fn">BuildScalableGameplaySystems</span>();
+        <span class="fn">ShipPolishedPrototypes</span>();
+        <span class="fn">RefineGameplayFeel</span>();
+    }
+};</pre>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- RECENT WORKS (GitHub-card style) -->
+  <div class="section-label">Recent Works</div>
+  <div class="works-grid">
+    <div class="work-card">
+      <div class="work-card-header">
+        <svg class="work-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="14" height="14" rx="2" stroke="#8b949e" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="#8b949e" stroke-width="1.2" stroke-linecap="round"/></svg>
+        <span class="work-name">boss-fight-prototype</span>
+      </div>
+      <p class="work-desc">Cinematic multi-phase boss encounter with dynamic AI states and player-responsive animations.</p>
+      <div class="work-lang"><span class="lang-dot" style="background:#00599C"></span>C++</div>
+    </div>
+    <div class="work-card">
+      <div class="work-card-header">
+        <svg class="work-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="14" height="14" rx="2" stroke="#8b949e" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="#8b949e" stroke-width="1.2" stroke-linecap="round"/></svg>
+        <span class="work-name">monkey-king-combat</span>
+      </div>
+      <p class="work-desc">Parry &amp; block system with precise timing windows, hit-stop, and camera-shake feedback.</p>
+      <div class="work-lang"><span class="lang-dot" style="background:#137CBD"></span>Blueprints</div>
+    </div>
+    <div class="work-card">
+      <div class="work-card-header">
+        <svg class="work-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="14" height="14" rx="2" stroke="#8b949e" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="#8b949e" stroke-width="1.2" stroke-linecap="round"/></svg>
+        <span class="work-name">enemy-ai-framework</span>
+      </div>
+      <p class="work-desc">Behavior tree–driven enemy AI with perception, patrol, and adaptive difficulty scaling.</p>
+      <div class="work-lang"><span class="lang-dot" style="background:#00599C"></span>C++</div>
+    </div>
+    <div class="work-card">
+      <div class="work-card-header">
+        <svg class="work-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="14" height="14" rx="2" stroke="#8b949e" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="#8b949e" stroke-width="1.2" stroke-linecap="round"/></svg>
+        <span class="work-name">fps-mechanics-kit</span>
+      </div>
+      <p class="work-desc">Responsive first-person systems: weapon sway, ADS, procedural recoil, footstep IK.</p>
+      <div class="work-lang"><span class="lang-dot" style="background:#00599C"></span>C++</div>
+    </div>
+    <div class="work-card">
+      <div class="work-card-header">
+        <svg class="work-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="14" height="14" rx="2" stroke="#8b949e" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="#8b949e" stroke-width="1.2" stroke-linecap="round"/></svg>
+        <span class="work-name">gameplay-ability-system</span>
+      </div>
+      <p class="work-desc">GAS-integrated ability framework with cooldowns, cost attributes, and effect stacking.</p>
+      <div class="work-lang"><span class="lang-dot" style="background:#137CBD"></span>Blueprints</div>
+    </div>
+    <div class="work-card">
+      <div class="work-card-header">
+        <svg class="work-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="14" height="14" rx="2" stroke="#8b949e" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="#8b949e" stroke-width="1.2" stroke-linecap="round"/></svg>
+        <span class="work-name">combat-camera-system</span>
+      </div>
+      <p class="work-desc">Lock-on targeting, dynamic FOV shifts, and cinematic camera rigs for combat encounters.</p>
+      <div class="work-lang"><span class="lang-dot" style="background:#137CBD"></span>Blueprints</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- PROJECTS -->
+  <div class="section-label">Project Showcase</div>
+  <div class="projects-grid">
+    <div class="proj-card">
+      <img class="proj-img" src="https://i.postimg.cc/pVfC2jVN/Whats-App-Image-2026-05-19-at-8-16-35-AM.jpg" alt="Boss Fight Prototype"/>
+      <div class="proj-body">
+        <p class="proj-tag">◆ Boss Fight Prototype</p>
+        <p class="proj-title">Cinematic Multi-Phase Encounter</p>
+        <p class="proj-desc">Phase-based boss logic with attack pattern rotation, telegraphed wind-ups, and adaptive difficulty.</p>
+      </div>
+    </div>
+    <div class="proj-card">
+      <img class="proj-img" src="https://i.postimg.cc/3xqLVH1v/Moneky-king.png" alt="Parry & Block System"/>
+      <div class="proj-body">
+        <p class="proj-tag">◆ Monkey King Combat</p>
+        <p class="proj-title">Parry &amp; Block Mechanics</p>
+        <p class="proj-desc">Frame-precise parry windows, directional blocking, and counter-attack animations tied to hit reactions.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- TECH STACK -->
+  <div class="section-label">Tech Stack</div>
+  <div class="tech-grid">
+    <div class="tech-card">
+      <p class="tech-name">Unreal Engine 5</p>
+      <p class="tech-role">Core dev environment — gameplay systems, prototyping, level flow</p>
+    </div>
+    <div class="tech-card">
+      <p class="tech-name">C++</p>
+      <p class="tech-role">Gameplay programming — components, actors, game modes, GAS</p>
+    </div>
+    <div class="tech-card">
+      <p class="tech-name">Blueprints</p>
+      <p class="tech-role">Rapid iteration — gameplay logic, visual scripting, event-driven systems</p>
+    </div>
+    <div class="tech-card">
+      <p class="tech-name">Visual Studio</p>
+      <p class="tech-role">IDE for Unreal C++ development and step-through debugging</p>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- SKILL BARS -->
+  <div class="section-label">Skill Overview</div>
+  <div class="skills-list">
+    <div class="skill-row">
+      <span class="skill-name">Gameplay Systems</span>
+      <div class="skill-track"><div class="skill-fill" style="width:70%;animation-delay:0.0s"></div></div>
+      <span class="skill-pct">70%</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-name">Blueprints</span>
+      <div class="skill-track"><div class="skill-fill" style="width:70%;animation-delay:0.1s"></div></div>
+      <span class="skill-pct">70%</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-name">C++</span>
+      <div class="skill-track"><div class="skill-fill" style="width:60%;animation-delay:0.2s"></div></div>
+      <span class="skill-pct">60%</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-name">Enemy AI</span>
+      <div class="skill-track"><div class="skill-fill" style="width:60%;animation-delay:0.3s"></div></div>
+      <span class="skill-pct">60%</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-name">Architecture</span>
+      <div class="skill-track"><div class="skill-fill" style="width:60%;animation-delay:0.4s"></div></div>
+      <span class="skill-pct">60%</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-name">Optimization</span>
+      <div class="skill-track"><div class="skill-fill" style="width:55%;animation-delay:0.5s"></div></div>
+      <span class="skill-pct">55%</span>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- GOALS -->
+  <div class="section-label">Current Goals</div>
+  <div class="goals-list">
+    <div class="goal-item"><div class="goal-box"></div>Ship a fully polished gameplay prototype built entirely in C++</div>
+    <div class="goal-item"><div class="goal-box"></div>Master advanced UE5 systems: GAS, AI Perception, Enhanced Input</div>
+    <div class="goal-item"><div class="goal-box"></div>Design scalable, production-ready gameplay architecture</div>
+    <div class="goal-item"><div class="goal-box"></div>Deepen understanding of Unreal's rendering and optimization pipeline</div>
+    <div class="goal-item"><div class="goal-box"></div>Build a strong public portfolio of gameplay demos</div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="divider"></div>
+    <p class="footer-quote">"Great gameplay is built through responsiveness, clarity, and feel."</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
