@@ -1,55 +1,39 @@
 <div align="center">
 
-# ⚔️ Abdul Basit
+# Abdul Basit
 ### Unreal Engine Developer • Gameplay Programmer
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=Unreal+Engine+Developer;Gameplay+Programmer;C%2B%2B+%26+Blueprints;Building+Immersive+Gameplay" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Unreal+Engine+5+Developer;Gameplay+Programmer;C%2B%2B+%26+Blueprints;Building+Immersive+Gameplay+Systems" />
 
 </div>
 
 ---
 
-# 🚀 About Me
+## 💻 About Me
 
-```cpp
-class AbdulBasit : public UnrealEngineDeveloper
-{
-public:
+I am an Unreal Engine developer focused on building immersive and scalable gameplay systems using **C++** and **Blueprints**.
 
-    void Specialization()
-    {
-        CombatSystems();
-        GameplayProgramming();
-        EnemyAI();
-        BossFightDesign();
-    }
+My primary interests include:
+- Gameplay Programming
+- Combat Systems
+- Enemy AI
+- FPS Mechanics
+- Boss Fight Design
+- Gameplay Architecture
 
-    void Tools()
-    {
-        UnrealEngine5();
-        CPP();
-        Blueprints();
-    }
-};
-```
-
-💡 I build gameplay-focused systems in **Unreal Engine 5** using  
-**C++** and **Blueprints** with a strong focus on:
-
-- ⚔️ Combat Systems
-- 🎯 FPS Mechanics
-- 🧠 Enemy AI
-- 👑 Boss Encounters
-- 🎮 Game Feel & Polish
-- 🏗 Scalable Gameplay Architecture
+Currently improving my expertise in:
+- Advanced Unreal Engine C++
+- System Design & Optimization
+- Scalable Gameplay Frameworks
+- High-quality Gameplay Polish
 
 ---
 
-# 🛠 Tech Stack
+## ⚙️ Core Technologies
 
 <div align="center">
 
-![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)
+![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine%205-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Blueprints](https://img.shields.io/badge/Blueprints-137CBD?style=for-the-badge)
 
@@ -57,87 +41,78 @@ public:
 
 ---
 
-# 🔥 Featured Projects
+## 🚀 Featured Work
 
-## ⚔️ Modular Combat System
-```yaml
-Features:
-  - Parry System
-  - Blocking Mechanics
-  - Enemy Combat AI
-  - Projectile Attacks
-  - Teleportation Abilities
-  - Actor Component Architecture
-```
+### ⚔️ Modular Combat System
+Designed a flexible combat framework featuring:
+- Parry & Blocking Mechanics
+- Enemy Combat AI
+- Projectile Systems
+- Teleportation Abilities
+- Component-Based Architecture
 
 ---
 
-## 🔫 FPS Gameplay Prototype
-```yaml
-Systems:
-  - Responsive Shooting
-  - Hit Detection
-  - Inventory Mechanics
-  - Enemy AI Behaviors
-```
+### 🔫 FPS Gameplay Prototype
+Developed core FPS gameplay systems including:
+- Responsive Shooting Mechanics
+- Hit Detection
+- Inventory Features
+- Enemy AI Behaviors
 
 ---
 
-## 👑 Boss Fight Prototype
-```yaml
-Inspired By:
-  - Cinematic Combat
-  - Multi-Phase Bosses
-  - Heavy Combo Systems
-  - Reactive Gameplay
-```
+### 👑 Boss Fight Prototype
+Created cinematic-style combat encounters with:
+- Multi-phase Boss Logic
+- Combo Attack Systems
+- Reactive Gameplay Design
+- Advanced Combat Behaviors
 
 ---
 
-# 📈 Developer Stats
+## 📊 Developer Overview
 
 <div align="center">
 
 ```txt
-C++                 █████████████░░░
-Blueprints          ████████████████
-Gameplay Systems    ██████████████░░
-Enemy AI            ████████████░░░░
-Optimization        █████████░░░░░░░
+Gameplay Systems     ███████████████░
+Blueprints           ████████████████
+C++                  █████████████░░░
+Enemy AI             █████████████░░░
+Optimization         ██████████░░░░░░
 ```
 
 </div>
 
 ---
 
-# 🌐 Connect With Me
+## 🌐 Professional Links
 
 <div align="center">
 
-🎨 Portfolio  
-## https://akasharts17.artstation.com/
-
 💼 LinkedIn  
-### Add Your LinkedIn Here
+www.linkedin.com/in/muhammad-abdulbasit-966b3a385g
+
 
 📧 Email  
-### Add Your Email Here
+mbasitabbasi6@gmail.com
 
 </div>
 
 ---
 
-# 🎯 Current Goals
+## 🎯 Current Goals
 
-- Build polished UE5 gameplay systems
-- Master advanced Unreal Engine C++
-- Create scalable combat architecture
-- Develop high-quality gameplay prototypes
+- Build polished Unreal Engine gameplay systems
+- Deepen expertise in Unreal Engine C++
+- Create scalable gameplay architecture
+- Develop production-quality gameplay prototypes
 
 ---
 
 <div align="center">
 
-## 🎮 “Gameplay is something players should *feel*, not just see.”
+### “Great gameplay is built through iteration, responsiveness, and feel.”
 
 </div>
