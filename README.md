@@ -1,86 +1,118 @@
 <div align="center">
 
-# Abdul Basit
+# ⚔️ Abdul Basit
 
 ### Unreal Engine Developer • Gameplay Programmer
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Unreal+Engine+5+Developer;Gameplay+Programmer;C%2B%2B+%26+Blueprints;Building+Gameplay+Systems" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Unreal+Engine+5+Developer;Gameplay+Programmer;C%2B%2B+%26+Blueprints;Combat+Systems+%26+Enemy+AI;Building+Immersive+Gameplay+Experiences" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Engine-Unreal%20Engine%205-black?style=for-the-badge&logo=unrealengine"/>
+  <img src="https://img.shields.io/badge/Code-C%2B%2B-blue?style=for-the-badge&logo=cplusplus"/>
+  <img src="https://img.shields.io/badge/Scripting-Blueprints-137CBD?style=for-the-badge"/>
 </p>
 
 </div>
 
 ---
 
-## About Me
+# 💻 About Me
 
-I am an Unreal Engine developer focused on creating immersive gameplay systems using **C++** and **Blueprints**.
+```cpp
+class AbdulBasit : public UnrealEngineDeveloper
+{
+public:
 
-My interests include:
-- Gameplay Programming
-- Combat Systems
-- Enemy AI
-- FPS Mechanics
-- Boss Fight Design
-- Gameplay Architecture
+    void Focus()
+    {
+        GameplayProgramming();
+        CombatSystems();
+        EnemyAI();
+        BossFightDesign();
+    }
 
-Currently improving:
-- Unreal Engine C++
-- Gameplay System Design
-- Optimization
-- Scalable Architecture
+    void CurrentGoals()
+    {
+        ImproveCPP();
+        BuildScalableSystems();
+        CreatePolishedGameplay();
+    }
+};
+```
+
+I am a gameplay-focused Unreal Engine developer passionate about building immersive and responsive gameplay systems using **C++** and **Blueprints**.
+
+My development focus includes:
+- ⚔️ Combat Systems
+- 🎯 FPS Mechanics
+- 🧠 Enemy AI
+- 👑 Boss Fight Design
+- 🏗 Gameplay Architecture
+- 🎮 Game Feel & Polish
 
 ---
 
-## Core Technologies
+# ⚙️ Tech Stack
 
 <div align="center">
 
-| Engine | Programming | Systems |
-|:--:|:--:|:--:|
-| Unreal Engine 5 | C++ | Gameplay Systems |
-| Blueprints | OOP Concepts | Combat Mechanics |
-| Visual Studio | AI Behaviors | FPS Systems |
+| Technology | Experience |
+|:--|:--|
+| Unreal Engine 5 | Gameplay Systems & Prototyping |
+| C++ | Gameplay Programming |
+| Blueprints | Gameplay Logic & Systems |
+| Visual Studio | Unreal Development Workflow |
+| Git & GitHub | Version Control |
 
 </div>
 
 ---
 
-## Featured Projects
+# 🚀 Featured Projects
 
-### ⚔️ Modular Combat System
+## ⚔️ Modular Combat System
 
-Designed a flexible gameplay combat framework featuring:
+A scalable combat framework designed with reusable gameplay architecture.
+
+### Features
 - Parry & Blocking Mechanics
 - Enemy Combat AI
 - Projectile Systems
 - Teleportation Abilities
 - Component-Based Architecture
+- Responsive Combat Logic
 
 ---
 
-### 🔫 FPS Gameplay Prototype
+## 🔫 FPS Gameplay Prototype
 
-Built responsive FPS gameplay systems including:
+A first-person gameplay prototype focused on responsiveness and gameplay feel.
+
+### Systems Included
 - Shooting Mechanics
 - Hit Detection
 - Inventory Features
-- Enemy AI Behaviors
 - Interaction Systems
+- Enemy AI Behaviors
 
 ---
 
-### 👑 Boss Fight Prototype
+## 👑 Boss Fight Prototype
 
-Created cinematic combat encounters with:
+A cinematic-style boss combat prototype inspired by modern action games.
+
+### Highlights
 - Multi-phase Boss Logic
 - Combo Attack Systems
-- Reactive Gameplay Design
 - Dynamic Enemy Behaviors
+- Reactive Gameplay Flow
+- Combat State Management
 
 ---
 
-## Developer Overview
+# 📊 Developer Overview
 
 <div align="center">
 
@@ -97,31 +129,50 @@ Architecture Design   ██████░░░░░░░░░   60%
 
 ---
 
-## Professional Links
+# 📈 GitHub Stats
 
 <div align="center">
 
-💼 LinkedIn  
-www.linkedin.com/in/muhammad-abdulbasit-966b3a385
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-📧 Email  
-mbasitabbasi6@gmail.com
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </div>
 
 ---
 
-## Current Goals
+# 🌐 Professional Links
 
-- Build polished gameplay systems in Unreal Engine 5
-- Improve Unreal Engine C++ expertise
+<div align="center">
+
+<a href="https://www.linkedin.com/in/muhammad-abdulbasit-966b3a385" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:mbasitabbasi6@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://www.instagram.com/dusttraildev/" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+# 🎯 Current Goals
+
+- Build polished Unreal Engine gameplay systems
+- Improve advanced Unreal Engine C++ knowledge
 - Create scalable gameplay architecture
 - Develop production-quality gameplay prototypes
+- Continue learning modern gameplay programming techniques
 
 ---
 
 <div align="center">
 
-### “Great gameplay is built through responsiveness, clarity, and feel.”
+### 🎮 “Great gameplay is built through responsiveness, clarity, and feel.”
 
 </div>
