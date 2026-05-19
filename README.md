@@ -1,111 +1,143 @@
-# 👋 Hey, I'm Abdul Basit
+<div align="center">
 
-### Unreal Engine Developer | Gameplay Programmer
+# ⚔️ Abdul Basit
+### Unreal Engine Developer • Gameplay Programmer
 
----
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=Unreal+Engine+Developer;Gameplay+Programmer;C%2B%2B+%26+Blueprints;Building+Immersive+Gameplay" />
 
-## 🚀 About Me
-
-I’m an Unreal Engine developer focused on creating immersive gameplay systems using **C++** and **Blueprints**.
-
-🎮 Areas of Interest:
-- Combat Systems
-- Boss Fight Design
-- FPS Mechanics
-- AI Behaviors
-- Gameplay Systems
-- Game Feel & Polish
-
-Currently improving:
-- Unreal Engine C++
-- Gameplay Architecture
-- Optimization
-- Scalable Systems
+</div>
 
 ---
 
-## 🛠 Tech Stack
-
-### 🎮 Game Development
-- Unreal Engine 5
-- C++
-- Blueprints
-- Gameplay Framework
-- AI Systems
-
-### ⚙️ Tools
-- Git & GitHub
-- Visual Studio
-- Perforce
-
----
-
-## 🔥 Featured Projects
-
-### ⚔️ Modular Combat System
-- Parry & Blocking
-- Enemy Combat AI
-- Projectile Attacks
-- Teleportation Mechanics
-- Actor Component Architecture
-
-### 🔫 FPS Prototype
-- Shooting Mechanics
-- Hit Detection
-- Inventory System
-- Enemy AI
-
-### 👑 Boss Fight Prototype
-Inspired by cinematic action combat:
-- Multi-phase attacks
-- Heavy combos
-- Reactive gameplay systems
-
----
-
-## 📈 GitHub Stats
+# 🚀 About Me
 
 ```cpp
-PlayerSkills Skills;
+class AbdulBasit : public UnrealEngineDeveloper
+{
+public:
 
-Skills.CPP            = 85;
-Skills.Blueprints     = 60;
-Skills.AI             = 60;
-Skills.Optimization   = 65;
+    void Specialization()
+    {
+        CombatSystems();
+        GameplayProgramming();
+        EnemyAI();
+        BossFightDesign();
+    }
+
+    void Tools()
+    {
+        UnrealEngine5();
+        CPP();
+        Blueprints();
+    }
+};
+```
+
+💡 I build gameplay-focused systems in **Unreal Engine 5** using  
+**C++** and **Blueprints** with a strong focus on:
+
+- ⚔️ Combat Systems
+- 🎯 FPS Mechanics
+- 🧠 Enemy AI
+- 👑 Boss Encounters
+- 🎮 Game Feel & Polish
+- 🏗 Scalable Gameplay Architecture
+
+---
+
+# 🛠 Tech Stack
+
+<div align="center">
+
+![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Blueprints](https://img.shields.io/badge/Blueprints-137CBD?style=for-the-badge)
+
+</div>
+
+---
+
+# 🔥 Featured Projects
+
+## ⚔️ Modular Combat System
+```yaml
+Features:
+  - Parry System
+  - Blocking Mechanics
+  - Enemy Combat AI
+  - Projectile Attacks
+  - Teleportation Abilities
+  - Actor Component Architecture
 ```
 
 ---
 
-## 🌐 Connect With Me
-
-🎨 ArtStation:  
-https://akasharts17.artstation.com/
-
-💼 LinkedIn:  
-(www.linkedin.com/in/muhammad-abdulbasit-966b3a385)
-
-📧 Email:  
-(mbasitabbasi6@gmail.com
-)
+## 🔫 FPS Gameplay Prototype
+```yaml
+Systems:
+  - Responsive Shooting
+  - Hit Detection
+  - Inventory Mechanics
+  - Enemy AI Behaviors
+```
 
 ---
 
-## 🎯 Goals
+## 👑 Boss Fight Prototype
+```yaml
+Inspired By:
+  - Cinematic Combat
+  - Multi-Phase Bosses
+  - Heavy Combo Systems
+  - Reactive Gameplay
+```
+
+---
+
+# 📈 Developer Stats
+
+<div align="center">
+
+```txt
+C++                 █████████████░░░
+Blueprints          ████████████████
+Gameplay Systems    ██████████████░░
+Enemy AI            ████████████░░░░
+Optimization        █████████░░░░░░░
+```
+
+</div>
+
+---
+
+# 🌐 Connect With Me
+
+<div align="center">
+
+🎨 Portfolio  
+## https://akasharts17.artstation.com/
+
+💼 LinkedIn  
+### Add Your LinkedIn Here
+
+📧 Email  
+### Add Your Email Here
+
+</div>
+
+---
+
+# 🎯 Current Goals
+
 - Build polished UE5 gameplay systems
-- Improve Unreal Engine C++ mastery
+- Master advanced Unreal Engine C++
 - Create scalable combat architecture
 - Develop high-quality gameplay prototypes
 
 ---
 
-> “Gameplay comes first.”
-<h1 align="center">Hi 👋, I'm AbdulBasit</h1>
-<h3 align="center">Unreal Engine Game developer from Pakistan</h3>
+<div align="center">
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+## 🎮 “Gameplay is something players should *feel*, not just see.”
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> </p>
-
+</div>
