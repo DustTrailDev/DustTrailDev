@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://dusttraildev-portfolio.animatedgull4.chatgpt.site"><img src="dist/assets/portfolio-hero.webp" width="100%" alt="Muhammad Abdul Basit, Unreal Engine Developer"></a>
+  <a href="https://dusttraildev.github.io"><img src="https://dusttraildev.github.io/assets/portfolio-hero.webp" width="100%" alt="Muhammad Abdul Basit, Unreal Engine Developer"></a>
 </p>
 
 <p align="center">
-  <a href="https://dusttraildev-portfolio.animatedgull4.chatgpt.site"><strong>View live portfolio ↗</strong></a> ·
+  <a href="https://dusttraildev.github.io"><strong>View live portfolio ↗</strong></a> ·
   <a href="#project-footage">Project footage</a> ·
   <a href="#experience--skills">Experience</a> ·
   <a href="https://www.linkedin.com/in/muhammad-abdulbasit">LinkedIn</a> ·
@@ -22,117 +22,107 @@ I build gameplay systems in Unreal Engine 5, with a focus on melee combat, enemy
 
 ## Project footage
 
-17 clips from Unreal Engine prototypes, technical demos, and playtests.
+18 clips from Unreal Engine prototypes, technical demos, and playtests.
 
 
 <table>
 <tr>
-<td width="33%"><a href="https://drive.google.com/drive/folders/1AHrJsqj8FFHPI_BNAQtYlu8xd54j5IzS"><img src="dist/assets/combat-ai/cover.webp" alt="Combat &amp; Ai" width="250"></a><br><a href="https://drive.google.com/drive/folders/1AHrJsqj8FFHPI_BNAQtYlu8xd54j5IzS">Open Drive folder ↗</a></td>
-<td width="33%"><a href="https://drive.google.com/drive/folders/113X8xaqHDuP7hDhs53UQFwPgY0X03nCm"><img src="dist/assets/combat-framework/cover.webp" alt="Combat Framework" width="250"></a><br><a href="https://drive.google.com/drive/folders/113X8xaqHDuP7hDhs53UQFwPgY0X03nCm">Open Drive folder ↗</a></td>
-<td width="33%"><a href="https://drive.google.com/drive/folders/1L_XTCqHKaDqosKFfv1sj1hUu31HKqhuS"><img src="dist/assets/inventory-equipment/cover.webp" alt="Inventory &amp; Equipment" width="250"></a><br><a href="https://drive.google.com/drive/folders/1L_XTCqHKaDqosKFfv1sj1hUu31HKqhuS">Open Drive folder ↗</a></td>
+<td width="33%"><a href="#combat--ai"><img src="https://dusttraildev.github.io/assets/combat-ai/cover.webp" alt="Combat &amp; Ai" width="250"></a></td>
+<td width="33%"><a href="#combat-framework-plugin"><img src="https://dusttraildev.github.io/assets/combat-framework/cover.webp" alt="Combat Framework" width="250"></a></td>
+<td width="33%"><a href="#inventory--equipment"><img src="https://dusttraildev.github.io/assets/inventory-equipment/cover.webp" alt="Inventory &amp; Equipment" width="250"></a></td>
 </tr>
 <tr>
-<td width="33%"><a href="https://drive.google.com/drive/folders/1t9HMBZvh-4AkNMEKXIphbXK947qnYswD"><img src="dist/assets/multiplayer/cover.webp" alt="Multiplayer" width="250"></a><br><a href="https://drive.google.com/drive/folders/1t9HMBZvh-4AkNMEKXIphbXK947qnYswD">Open Drive folder ↗</a></td>
-<td width="33%"><a href="https://drive.google.com/drive/folders/1Tp5rH54VaG2DZsKndnwfmnilOjaCOWPg"><img src="dist/assets/shooting/cover.webp" alt="Shooting" width="250"></a><br><a href="https://drive.google.com/drive/folders/1Tp5rH54VaG2DZsKndnwfmnilOjaCOWPg">Open Drive folder ↗</a></td>
-<td width="33%"><a href="https://drive.google.com/drive/folders/1ZsjbddoJrkhEZAkajZiWpT-KutI1whYf"><img src="dist/assets/early-prototypes/cover.webp" alt="Early Prototypes" width="250"></a><br><a href="https://drive.google.com/drive/folders/1ZsjbddoJrkhEZAkajZiWpT-KutI1whYf">Open Drive folder ↗</a></td>
+<td width="33%"><a href="#multiplayer"><img src="https://dusttraildev.github.io/assets/multiplayer/cover.webp" alt="Multiplayer" width="250"></a></td>
+<td width="33%"><a href="#shooting"><img src="https://dusttraildev.github.io/assets/shooting/cover.webp" alt="Shooting" width="250"></a></td>
+<td width="33%"><a href="#early-prototypes"><img src="https://dusttraildev.github.io/assets/early-prototypes/cover.webp" alt="Early Prototypes" width="250"></a></td>
 </tr>
 </table>
 
 <details>
-<summary><strong>Browse all 17 gameplay clips</strong></summary>
+<summary><strong>Browse all 18 gameplay clips</strong></summary>
 
 
 ### Combat & AI
 
-[Open Drive folder](https://drive.google.com/drive/folders/1AHrJsqj8FFHPI_BNAQtYlu8xd54j5IzS)
+[<img src="https://dusttraildev.github.io/assets/combat-ai/clip-13.webp" alt="Samurai Game Prototype" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-13.mp4)
 
-[<img src="dist/assets/combat-ai/clip-13.webp" alt="Samurai Game Prototype" width="300">](https://drive.google.com/file/d/1kdqiL0BHgQLh7vpSbaMtJk6E_owG6uAR/view)
-
-**Samurai Game Prototype** · A samurai action prototype from my melee combat development work. [Watch video](https://drive.google.com/file/d/1kdqiL0BHgQLh7vpSbaMtJk6E_owG6uAR/view)
+**Samurai Game Prototype** · A samurai action prototype from my melee combat development work. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-13.mp4)
 
 ### Combat Framework Plugin
 
-[Open Drive folder](https://drive.google.com/drive/folders/113X8xaqHDuP7hDhs53UQFwPgY0X03nCm)
+[<img src="https://dusttraildev.github.io/assets/combat-framework/clip-14.webp" alt="Combat Framework · Exhibit A" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-14.mp4)
 
-[<img src="dist/assets/combat-framework/clip-14.webp" alt="Combat Framework · Exhibit A" width="300">](https://drive.google.com/file/d/1O8v6sJ7kCq0IAf1FXmXUlZ31ey66Bh16/view)
+**Combat Framework · Exhibit A** · First demonstration of the modular combat framework. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-14.mp4)
 
-**Combat Framework · Exhibit A** · First demonstration of the modular combat framework. [Watch video](https://drive.google.com/file/d/1O8v6sJ7kCq0IAf1FXmXUlZ31ey66Bh16/view)
+[<img src="https://dusttraildev.github.io/assets/combat-framework/clip-15.webp" alt="Combat Framework · Exhibit B" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-15.mp4)
 
-[<img src="dist/assets/combat-framework/clip-15.webp" alt="Combat Framework · Exhibit B" width="300">](https://drive.google.com/file/d/1YDUjC1qedDF_4ZwTydu_Qjj9nAs1BcQL/view)
+**Combat Framework · Exhibit B** · Second demonstration from the combat framework demo project. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-15.mp4)
 
-**Combat Framework · Exhibit B** · Second demonstration from the combat framework demo project. [Watch video](https://drive.google.com/file/d/1YDUjC1qedDF_4ZwTydu_Qjj9nAs1BcQL/view)
+[<img src="https://dusttraildev.github.io/assets/combat-framework/clip-16.webp" alt="Combat Framework · Exhibit C" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-16.mp4)
 
-[<img src="dist/assets/combat-framework/clip-16.webp" alt="Combat Framework · Exhibit C" width="300">](https://drive.google.com/file/d/1n8V4zTjHSdAsaGa3ntvRJqy9pL7QnE-J/view)
+**Combat Framework · Exhibit C** · Third demonstration from the combat framework demo project. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-16.mp4)
 
-**Combat Framework · Exhibit C** · Third demonstration from the combat framework demo project. [Watch video](https://drive.google.com/file/d/1n8V4zTjHSdAsaGa3ntvRJqy9pL7QnE-J/view)
+[<img src="https://dusttraildev.github.io/assets/combat-framework/clip-17.webp" alt="Combat Framework · Testing" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-17.mp4)
 
-[<img src="dist/assets/combat-framework/clip-17.webp" alt="Combat Framework · Testing" width="300">](https://drive.google.com/file/d/1mwtG4bBq6OzcjDvF5uY7HTlPzaUkLk4V/view)
-
-**Combat Framework · Testing** · Development footage from testing the framework. [Watch video](https://drive.google.com/file/d/1mwtG4bBq6OzcjDvF5uY7HTlPzaUkLk4V/view)
+**Combat Framework · Testing** · Development footage from testing the framework. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-17.mp4)
 
 ### Inventory & Equipment
 
-[Open Drive folder](https://drive.google.com/drive/folders/1L_XTCqHKaDqosKFfv1sj1hUu31HKqhuS)
+[<img src="https://dusttraildev.github.io/assets/inventory-equipment/clip-7.webp" alt="Inventory System · Alpha" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-7.mp4)
 
-[<img src="dist/assets/inventory-equipment/clip-7.webp" alt="Inventory System · Alpha" width="300">](https://drive.google.com/file/d/1LaWZ42aIVNqUKn2d4YbJlxESvUlt7lxY/view)
+**Inventory System · Alpha** · An early walkthrough of the standalone inventory and equipment system. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-7.mp4)
 
-**Inventory System · Alpha** · An early walkthrough of the standalone inventory and equipment system. [Watch video](https://drive.google.com/file/d/1LaWZ42aIVNqUKn2d4YbJlxESvUlt7lxY/view)
+[<img src="https://dusttraildev.github.io/assets/inventory-equipment/clip-8.webp" alt="Plugin-Based Inventory" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-8.mp4)
 
-[<img src="dist/assets/inventory-equipment/clip-8.webp" alt="Plugin-Based Inventory" width="300">](https://drive.google.com/file/d/1IiCJ1HZU3h_tr14BqRHttmd_xrH2lAk2/view)
+**Plugin-Based Inventory** · A demonstration of the inventory system built using plugins. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-8.mp4)
 
-**Plugin-Based Inventory** · A demonstration of the inventory system built using plugins. [Watch video](https://drive.google.com/file/d/1IiCJ1HZU3h_tr14BqRHttmd_xrH2lAk2/view)
+**Weapon Inventory** · A demonstration of the weapon inventory system. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-18.mp4)
 
 ### Multiplayer
 
-[Open Drive folder](https://drive.google.com/drive/folders/1t9HMBZvh-4AkNMEKXIphbXK947qnYswD)
+[<img src="https://dusttraildev.github.io/assets/multiplayer/clip-9.webp" alt="Multiplayer Inventory & Shooting" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-9.mp4)
 
-[<img src="dist/assets/multiplayer/clip-9.webp" alt="Multiplayer Inventory & Shooting" width="300">](https://drive.google.com/file/d/1LFqtN63NAKZ_SGcgrgk2M8yUBMy2X5yX/view)
+**Multiplayer Inventory & Shooting** · Inventory and shooting in a multiplayer prototype using the Steam subsystem. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-9.mp4)
 
-**Multiplayer Inventory & Shooting** · Inventory and shooting in a multiplayer prototype using the Steam subsystem. [Watch video](https://drive.google.com/file/d/1LFqtN63NAKZ_SGcgrgk2M8yUBMy2X5yX/view)
+[<img src="https://dusttraildev.github.io/assets/multiplayer/clip-10.webp" alt="Two-Device Multiplayer Test" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-10.mp4)
 
-[<img src="dist/assets/multiplayer/clip-10.webp" alt="Two-Device Multiplayer Test" width="300">](https://drive.google.com/file/d/1gyRITyEwMKSXQ0D_pXi9COWUOO8Hewjm/view)
+**Two-Device Multiplayer Test** · A multiplayer test conducted across two devices. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-10.mp4)
 
-**Two-Device Multiplayer Test** · A multiplayer test conducted across two devices. [Watch video](https://drive.google.com/file/d/1gyRITyEwMKSXQ0D_pXi9COWUOO8Hewjm/view)
+[<img src="https://dusttraildev.github.io/assets/multiplayer/clip-11.webp" alt="Online Subsystem · Iteration 3" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-11.mp4)
 
-[<img src="dist/assets/multiplayer/clip-11.webp" alt="Online Subsystem · Iteration 3" width="300">](https://drive.google.com/file/d/1HzHjvLT_jNNzHibhRLtYLwhtFxg9OaGX/view)
+**Online Subsystem · Iteration 3** · Third recorded iteration of multiplayer subsystem testing. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-11.mp4)
 
-**Online Subsystem · Iteration 3** · Third recorded iteration of multiplayer subsystem testing. [Watch video](https://drive.google.com/file/d/1HzHjvLT_jNNzHibhRLtYLwhtFxg9OaGX/view)
+[<img src="https://dusttraildev.github.io/assets/multiplayer/clip-12.webp" alt="Online Subsystem · Iteration 2" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-12.mp4)
 
-[<img src="dist/assets/multiplayer/clip-12.webp" alt="Online Subsystem · Iteration 2" width="300">](https://drive.google.com/file/d/1ySTDcGp1QrKchzSbIJghldKZ9qmhYE8o/view)
-
-**Online Subsystem · Iteration 2** · Second recorded iteration of the multiplayer prototype. [Watch video](https://drive.google.com/file/d/1ySTDcGp1QrKchzSbIJghldKZ9qmhYE8o/view)
+**Online Subsystem · Iteration 2** · Second recorded iteration of the multiplayer prototype. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-12.mp4)
 
 ### Shooting
 
-[Open Drive folder](https://drive.google.com/drive/folders/1Tp5rH54VaG2DZsKndnwfmnilOjaCOWPg)
+[<img src="https://dusttraildev.github.io/assets/shooting/clip-6.webp" alt="Basic Shooting Prototype" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-6.mp4)
 
-[<img src="dist/assets/shooting/clip-6.webp" alt="Basic Shooting Prototype" width="300">](https://drive.google.com/file/d/1_wQZ-W_ZNv2WDkuXAQAdGugkSWMM1PFv/view)
-
-**Basic Shooting Prototype** · A Blueprint prototype with shooting, reload logic, and integrated ad monetization. [Watch video](https://drive.google.com/file/d/1_wQZ-W_ZNv2WDkuXAQAdGugkSWMM1PFv/view)
+**Basic Shooting Prototype** · A Blueprint prototype with shooting, reload logic, and integrated ad monetization. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-6.mp4)
 
 ### Early Prototypes
 
-[Open Drive folder](https://drive.google.com/drive/folders/1ZsjbddoJrkhEZAkajZiWpT-KutI1whYf)
+[<img src="https://dusttraildev.github.io/assets/early-prototypes/clip-5.webp" alt="First Combat Prototype" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-5.mp4)
 
-[<img src="dist/assets/early-prototypes/clip-5.webp" alt="First Combat Prototype" width="300">](https://drive.google.com/file/d/1hsuWPETusuB6577AmfH365qB0G1cfWki/view)
+**First Combat Prototype** · An early combat experiment from my Unreal Engine project archive. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-5.mp4)
 
-**First Combat Prototype** · An early combat experiment from my Unreal Engine project archive. [Watch video](https://drive.google.com/file/d/1hsuWPETusuB6577AmfH365qB0G1cfWki/view)
+[<img src="https://dusttraildev.github.io/assets/early-prototypes/clip-1.webp" alt="Early Prototype 1" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-1.mp4)
 
-[<img src="dist/assets/early-prototypes/clip-1.webp" alt="Early Prototype 1" width="300">](https://drive.google.com/file/d/1MkJN9z3X5Dqmz9gAo3chRKlYksRor53u/view)
+**Early Prototype 1** · An early Unreal Engine prototype from my development archive. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-1.mp4)
 
-**Early Prototype 1** · An early Unreal Engine prototype from my development archive. [Watch video](https://drive.google.com/file/d/1MkJN9z3X5Dqmz9gAo3chRKlYksRor53u/view)
+[<img src="https://dusttraildev.github.io/assets/early-prototypes/clip-2.webp" alt="Early Prototype 2" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-2.mp4)
 
-[<img src="dist/assets/early-prototypes/clip-2.webp" alt="Early Prototype 2" width="300">](https://drive.google.com/file/d/1w6waElzMkj4EKUpga7Sq7bV4D1uF40uX/view)
+**Early Prototype 2** · My second recorded prototype in the early project collection. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-2.mp4)
 
-**Early Prototype 2** · My second recorded prototype in the early project collection. [Watch video](https://drive.google.com/file/d/1w6waElzMkj4EKUpga7Sq7bV4D1uF40uX/view)
+[<img src="https://dusttraildev.github.io/assets/early-prototypes/clip-3.webp" alt="Early Prototype 4" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-3.mp4)
 
-[<img src="dist/assets/early-prototypes/clip-3.webp" alt="Early Prototype 4" width="300">](https://drive.google.com/file/d/1KHn1UhZNw0G00lJdF-r02cX4vU30KbFX/view)
+**Early Prototype 4** · A prototype walkthrough from my early Unreal Engine work. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-3.mp4)
 
-**Early Prototype 4** · A prototype walkthrough from my early Unreal Engine work. [Watch video](https://drive.google.com/file/d/1KHn1UhZNw0G00lJdF-r02cX4vU30KbFX/view)
+[<img src="https://dusttraildev.github.io/assets/early-prototypes/clip-4.webp" alt="Early Prototype 5" width="300">](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-4.mp4)
 
-[<img src="dist/assets/early-prototypes/clip-4.webp" alt="Early Prototype 5" width="300">](https://drive.google.com/file/d/1Vk6yPintyee20Rm1ETKHhroi-Nc3NeXM/view)
-
-**Early Prototype 5** · A later entry in my early Unreal Engine prototype collection. [Watch video](https://drive.google.com/file/d/1Vk6yPintyee20Rm1ETKHhroi-Nc3NeXM/view)
+**Early Prototype 5** · A later entry in my early Unreal Engine prototype collection. [Watch video](https://github.com/DustTrailDev/dusttraildev.github.io/releases/download/portfolio-videos/clip-4.mp4)
 
 </details>
 
